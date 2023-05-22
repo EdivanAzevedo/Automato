@@ -1,0 +1,5 @@
+Q = {q0;q1;q2}
+Sigma = {a;b;c}
+delta = {(q0,a)->q1;(q1,b)->q2;(q2,c)->q2}
+I = {q0}
+F = {q2}

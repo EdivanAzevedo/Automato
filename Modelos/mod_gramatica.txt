@@ -1,0 +1,4 @@
+V = {a;b;c;S;K;L}
+Sigma = {a;b;c}
+P = {S->a;S->aK;K->bK;K->L;L->cL;L->' '}
+I = S

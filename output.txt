@@ -1,0 +1,48 @@
+------------------RESULTADOS GERADOS A PARTIR DO ALGORITMO DE LFA------------------
+
+
+Autômato não determinístico
+
+
+
+Autômato finito equivalente sem ligações em vazio criado:
+Estado ={'q2', 'q3', 'q0', 'q1'}
+Alfabeto ={'b', 'a'}
+Transações:{('(q2,a)', 'q2'), ('(q0,a)', 'q1'), ('(q0,a)', 'q0'), ('(q1,b)', 'q2'), ('(q2,a)', 'q3'), ('(q3,b)', 'q3'), ('(q1,b)', 'q1')}
+Estados Iniciais ={'q0'}
+Estados Finais ={'q2', 'q3', 'q0', 'q1'}
+
+
+
+Autômato finito equivalente sem sem estados useless/acessiveis criado:
+Estado ={'q2', 'q3', 'q0', 'q1'}
+Alfabeto ={'b', 'a'}
+Delta:{('(q2,a)', 'q3'), ('(q2,a)', 'q2'), ('(q3,b)', 'q3'), ('(q0,a)', 'q1'), ('(q0,a)', 'q0'), ('(q1,b)', 'q1'), ('(q1,b)', 'q2')}
+Estados Iniciais ={'q0'}
+Estados Finais ={'q2', 'q3', 'q0', 'q1'}
+
+
+
+Gramática linear a direita gerada:
+Vocabulario{'S', 'A', 'B', 'b', 'a'}
+Alfabeto{'b', 'a'}
+Produções{'B->bB', 'A->bB', 'A->aA', 'S->aA', 'B->aA', "B->' '", "A->' '"}
+Simbolo Inicial{'S'}
+
+
+
+Gramática Carregada:
+Vocabulário ={'S', 'X', 'c', 'b', 'a'}
+Alfabeto ={'b', 'a', 'c'}
+Regras de substituição ={('X', 'bX'), ('X', 'cX'), ('S', 'aX'), ('X', "' '"), ('X', 'aX')}
+Simbolo Inicial ={'S'}
+
+
+
+Automato gerado:
+Estados ={'S', 'X'}
+Alfebeto ={'b', 'a', 'c'}
+Transações ={'(S,a)->X', '(X,b)->X', '(X,a)->X', "(X,' ')->qf", '(X,c)->X'}
+Estado inicial ={'S'}
+Estado Final =set()
+
